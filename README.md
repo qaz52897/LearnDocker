@@ -10,6 +10,5 @@ run:
 example:
 
 	docker run -v /server:/app -d -p 80:3000 -e PORT=3000  mynodejs node server.js
----	
-docker run -v /server:/app -d --memory=1G --cpus=1 -p 80:3000 -e PORT=3000  mynodejs node server.js
+
 
